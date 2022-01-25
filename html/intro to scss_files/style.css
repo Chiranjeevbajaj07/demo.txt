@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container {
+  width: 70vw;
+  height: 80vh;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .gibberish {
+  font-size: 20px;
+  color: white;
+}
+
+body .card {
+  height: 40vh;
+  width: 30vw;
+  -webkit-box-shadow: 0, 0, 10px black;
+          box-shadow: 0, 0, 10px black;
+  border-radius: 20px;
+  background-color: #bbbbbb;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .card__logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+
+body .card__list {
+  list-style: none;
+}
+
+body .card__listitem {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 6px;
+}
+
+body .container p:not(:last-child) {
+  color: green;
+  padding: 10px;
+}
+
+body .container .head {
+  font: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

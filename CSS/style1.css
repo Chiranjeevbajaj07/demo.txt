@@ -1,0 +1,61 @@
+.lorem{
+    color: rgb(255, 0, 0);
+}
+body{
+    width: 50%;
+    height: 50%;
+   
+}
+html{
+    height: 100%;
+}
+.square{
+    width: 40vw;
+    height: 40vh;
+}
+.orange{
+    background-color: orange;
+}
+.square{
+    width: 50vw;
+    height: 50vh;
+}
+.blue{
+    background-color: blue;
+    color: crimson;
+}
+.sample {
+    width: 50px;
+    height: 200px;
+    font-size: 20px;
+}
+.sample h6{
+  font-size: 1em;
+    width: 5em;
+   height: 7em;
+}
+*{
+    margin: 0%;
+}
+.fonts{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: magenta;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 3px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.square  {
+    width: 40px;
+    height: 40px;
+    padding-left: 20;
+    padding-top: 20;
+    padding-right: 20;
+    padding-bottom: 20;
+}
+.pink{
+   background-color: pink;
+}

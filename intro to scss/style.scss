@@ -1,0 +1,113 @@
+    $font-size-lg: 35px;
+    $font-size-md: 25px;
+    $font-size-sm: 20px;
+    $font-size-xs: 16px;
+
+
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+//body styling
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width: 70vw;
+        height: 80vh;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .gibberish{
+            font-size: 20px;
+            color: white;
+        }
+}
+
+.card {
+    height: 40vh;
+    width: 30vw;
+    box-shadow: 0,0,10px rgba($color: #000000, $alpha: 1.0);
+    border-radius: 20px;
+    background-color: rgb(187, 187, 187);
+    display: block;
+    justify-content: center;
+
+    &__logo{
+        font-size: $font-size-lg;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        display: block;
+        margin: 10px 0;
+    }
+
+   &__list {
+       list-style: none;
+       &item{
+          margin-left: 20px; 
+          font-size: 20px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          padding: 6px;
+
+         
+         
+       }
+   }
+
+}
+
+
+
+
+
+.container p:not(:last-child) {
+    color: green;
+    padding: 10px;
+}
+.container .head{
+    font: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+
+}
+
+.button {
+    cursor: pointer;
+    font-size: $font-size-md;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(209, 51, 51);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.button-info{
+@extend .button;
+background-color: black
+}
+
+.button-alert{
+    @extend.button;
+    background-color: yellow;
+
+}
+
+
+
+    
+}
+
+
